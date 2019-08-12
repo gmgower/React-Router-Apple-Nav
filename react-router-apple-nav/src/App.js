@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
 
+import NavBar from './components/NavBar.jsx'
+
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+      <NavBar />
+      <h1>NavBar</h1>
+
+      
     </div>
 
   )
